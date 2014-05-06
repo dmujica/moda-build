@@ -10127,7 +10127,7 @@ th.hide-for-touch {
 
 .arrow {
   width: 9%;
-  text-align: center; }
+  margin: 0 auto; }
 
 .thiswrk img {
   width: 100%; }
@@ -10299,11 +10299,13 @@ body {
   font-family: 'proxima_nova_rgregular';
   padding: 0 20% 2% 20%; }
 
+.mid-btn {
+  margin: 0 auto;
+  text-align: center; }
+
 .learn-more {
-  position: absolute;
   background: #4a6d71;
-  left: 45%;
-  top: 80%;
+  margin-bottom: -100px;
   font-family: 'proxima_nova_rgbold'; }
 
 .learn-more:hover {
@@ -10312,6 +10314,11 @@ body {
 /*Gallery*/
 .gallery {
   margin-top: 58px;
+  text-align: center;
+  width: 100%; }
+
+.gallerywrap {
+  margin: 0 auto;
   text-align: center; }
 
 .gallery h6 {
